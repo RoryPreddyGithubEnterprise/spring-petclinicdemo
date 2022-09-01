@@ -1,0 +1,2 @@
+az containerapp up -n petclinic --source .
+az containerapp up -n petclinic --resource-group petclinic --repo https://github.com/roryp/spring-petclinic
